@@ -1,0 +1,992 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usetheme{Warsaw}
+% or ...
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 2
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This file is a solution template for:
+\end_layout
+
+\begin_layout Itemize
+Talk at a conference/colloquium.
+ 
+\end_layout
+
+\begin_layout Itemize
+Talk length is about 20min.
+ 
+\end_layout
+
+\begin_layout Itemize
+Style is ornate.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+In principle, this file can be redistributed and/or modified under the terms
+ of the GNU Public License, version 2.
+ However, this file is supposed to be a template to be modified for your
+ own needs.
+ For this reason, if you use this file as a template and not specifically
+ distribute it as part of a another package/program, the author grants the
+ extra permission to freely copy and modify this file as you see fit and
+ even to delete this copyright notice.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Introduction to LyX
+\end_layout
+
+\begin_layout Subtitle
+workshop
+\end_layout
+
+\begin_layout Author
+Ronen Abravanel
+\end_layout
+
+\begin_layout Date
+Haifa university, May 2013 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+If you wish to uncover everything in a step-wise fashion, uncomment the
+ following command:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+beamerdefaultoverlayspecification{<+->}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Outline
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Motivation
+\end_layout
+
+\begin_layout Subsection
+What is LyX?
+\end_layout
+
+\begin_layout BeginFrame
+What is LyX?
+\end_layout
+
+\begin_layout Standard
+Free document creation tool.
+ 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Graphical frontend to LaTeX (I'll explain shortly)
+\end_layout
+
+\begin_deeper
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Available in many OSs (Windows, Gnu/Linux, OS X)
+\end_layout
+
+\begin_deeper
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Especially usefull for documents contains mathematical expressions.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+One dose not handle design, only content.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Can export documents to PDF, HTML.
+ 
+\end_layout
+
+\begin_layout Subsection
+LaTeX
+\end_layout
+
+\begin_layout BeginFrame
+LaTeX
+\end_layout
+
+\begin_layout FrameSubtitle
+A frontend to WHAT?!
+\end_layout
+
+\begin_layout Itemize
+Once upon a time, computer scientist name Donald Knuth started writing a
+ book, 
+\begin_inset Quotes eld
+\end_inset
+
+The art of computer programming
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+At a time, there was no good way typeset math.
+ Wrote TeX.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Later: Extended to LaTeX.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+De-facto standard for publications in some disciplines.
+ 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Numerous specific extensions.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Coding a document.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout BeginFrame
+LaTeX: cont.
+\end_layout
+
+\begin_layout FrameSubtitle
+example
+\end_layout
+
+\begin_layout Example
+
+\series bold
+
+\backslash
+framesubtitle{
+\series default
+\emph on
+A frontend to WHAT?!
+\series bold
+\emph default
+}
+\end_layout
+
+\begin_layout Example
+
+\series bold
+
+\backslash
+begin{
+\series default
+itemize
+\series bold
+}
+\end_layout
+
+\begin_layout Example
+
+\series bold
+
+\backslash
+item
+\series default
+ Once upon a time, computer scientist name Donald Knuth started writing
+\end_layout
+
+\begin_layout Example
+a book, ``The art of computer programming''.
+\end_layout
+
+\begin_layout Example
+
+\series bold
+
+\backslash
+item 
+\series default
+At a time, there was no good way typeset math.
+ Wrote 
+\series bold
+
+\backslash
+TeX{}
+\series default
+.
+\end_layout
+
+\begin_layout Example
+
+\series bold
+
+\backslash
+item 
+\series default
+Later: Extended to 
+\series bold
+
+\backslash
+LaTeX{}
+\series default
+.
+\end_layout
+
+\begin_layout Example
+
+\series bold
+
+\backslash
+item 
+\series default
+De-facto standard for publications in some disciplines.
+ 
+\end_layout
+
+\begin_layout Example
+
+\series bold
+
+\backslash
+item 
+\series default
+Numerous specific extensions.
+\end_layout
+
+\begin_layout Example
+
+\series bold
+
+\backslash
+item 
+\series default
+Coding a document.
+\end_layout
+
+\begin_layout Example
+
+\series bold
+
+\backslash
+end{
+\series default
+\emph on
+itemize
+\emph default
+}
+\end_layout
+
+\begin_layout Example
+
+\end_layout
+
+\begin_layout Example
+
+\end_layout
+
+\begin_layout Section
+LyX
+\end_layout
+
+\begin_layout Subsection
+Overview
+\end_layout
+
+\begin_layout BeginFrame
+LyX
+\end_layout
+
+\begin_layout FrameSubtitle
+Overview: A graphical frontend to latex
+\end_layout
+
+\begin_layout Itemize
+Look like an ordinary word-processor, but act differently.
+ 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Not a standalone tool: Use LaTeX to export documents.
+ 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Support only part of LaTeX functionality, and some of the extensions.
+ 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+One can (almost) always can do things manually.
+ 
+\end_layout
+
+\begin_layout BeginFrame
+LyX
+\end_layout
+
+\begin_layout FrameSubtitle
+Overview: Cont.
+\end_layout
+
+\begin_layout Itemize
+You can do everything in LyX
+\backslash
+LaTeX 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Really.
+ LaTeX is Turing-complete.
+\end_layout
+
+\end_inset
+
+, but fine-tuned design is hard: Do not use for documents focused on design.
+ 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Mostly useful for:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+well-structured documents.
+ (Like and article, homework sheet of this presentation).
+\end_layout
+
+\begin_layout Itemize
+Heavy use of mathematical equations.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Features
+\end_layout
+
+\begin_layout BeginFrame
+LyX
+\end_layout
+
+\begin_layout FrameSubtitle
+Features
+\end_layout
+
+\begin_layout Itemize
+After some settings, good support in Hebrew.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Probably the 1st Free software that supported Hebrew.
+ 
+\end_layout
+
+\begin_layout Itemize
+But not all LaTeX extensions support Hebrew as well.
+ 
+\end_layout
+
+\begin_layout Itemize
+No Hebrew inside math.
+ 
+\end_layout
+
+\begin_layout Itemize
+Should install special fonts (
+\family typewriter
+culmus-latex
+\family default
+).
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Specific usage:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+HTML export (+math).
+\end_layout
+
+\begin_layout Itemize
+Typeset IPA (if you're a linguist) commutative diagrams (if you'r a matmaticion)
+ ,Feynman diagrams (if you are a physicist) or color-coded code (for everyone).
+ 
+\end_layout
+
+\begin_layout Itemize
+Trees & Graphs will require some LaTeX code.
+ 
+\end_layout
+
+\begin_layout Itemize
+Presentations! (Like this one.
+ No Hebrew yet)
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+LyX
+\end_layout
+
+\begin_layout FrameSubtitle
+Features, cont.
+ 
+\end_layout
+
+\begin_layout Itemize
+Cross references to equations, figures, etc.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Automated index and table of content.
+ 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Bibliography 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Extendable & Open source.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+And yes.
+ 
+\begin_inset Formula $\mathcal{M}\forall\tau\hbar$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Example
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[Mathematical expression]
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\hat{f}(\boldsymbol{\xi})=\mathcal{F}(f)(\boldsymbol{\xi})=\int_{\mathbb{R}^{n}}f(\mathbf{x})e^{-2\pi i\mathbf{x}\cdot\boldsymbol{\xi}}\, d\mathbf{x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Philosophy
+\end_layout
+
+\begin_layout BeginFrame
+LyX
+\end_layout
+
+\begin_layout FrameSubtitle
+Philosophy
+\end_layout
+
+\begin_layout Standard
+LyX seems, at start, like an ordinary word-processor.
+ But it's rather different then MS word, for example.
+ 
+\emph on
+If you'll ignore these differences, LyX will make you a hard time
+\emph default
+.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+You write the document, not designing it.
+ 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Designing the document is done by defining 'roles' for different part of
+ the document.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No 
+\begin_inset Quotes eld
+\end_inset
+
+15pt bold, underline
+\begin_inset Quotes erd
+\end_inset
+
+ font but 
+\begin_inset Quotes eld
+\end_inset
+
+Section
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+Subsection
+\begin_inset Quotes erd
+\end_inset
+
+ title.
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+LyX
+\end_layout
+
+\begin_layout FrameSubtitle
+Philosophy, cont.
+ 
+\end_layout
+
+\begin_layout Itemize
+Document on screen is different then printed version.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+On-screen document best fitted for on screen display.
+ Printed document best fitted for read out from print.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+What you see is what you mean
+\begin_inset Quotes erd
+\end_inset
+
+ and not 
+\begin_inset Quotes eld
+\end_inset
+
+What you see is what you get
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Demo
+\end_layout
+
+\begin_layout BeginFrame
+Demo
+\end_layout
+
+\begin_layout Standard
+See also 
+\begin_inset CommandInset href
+LatexCommand href
+name "http://ktzr.us/lyx_pg"
+target "http://ktzr.us/lyx_pg"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Further Reading
+\end_layout
+
+\begin_layout BeginFrame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[allowframebreaks]
+\end_layout
+
+\end_inset
+
+For Further Reading
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+beamertemplatebookbibitems
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Start with overview books.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring References
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Author1990"
+
+\end_inset
+
+A.
+ Author.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+
+\emph on
+Handbook of Everything
+\emph default
+.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+ Some Press, 1990.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+beamertemplatearticlebibitems
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Followed by interesting articles.
+ Keep the list short.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring References
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Someone2002"
+
+\end_inset
+
+S.
+ Someone.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+ On this and that
+\emph on
+.
+
+\emph default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+
+\emph on
+Journal on This and That
+\emph default
+.
+ 2(1):50--100, 2000.
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document

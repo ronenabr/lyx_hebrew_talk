@@ -1,0 +1,3146 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass heb-article
+\begin_preamble
+\usepackage{a4wide}
+\usepackage{braket}
+\usepackage{cancel}
+\usepackage{culmus}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 2
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index אינדקס
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\author -1747736686 "Ronen Abravanel,308,," 
+\author 427597995 "ronen,,," 
+\author 1737773943 "Yehezkel Bernat" yehezkelshb@gmail.com
+\end_header
+
+\begin_body
+
+\begin_layout Title
+הרצאה --
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+LyX
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ראשי פרקים
+\end_layout
+
+\begin_layout Author
+הרצאה עבור החוג למתמטיקה ומדעי המחשב
+\begin_inset Newline newline
+\end_inset
+
+אוניברסיטת חיפה
+\end_layout
+
+\begin_layout Author
+רונן אברבנאל
+\end_layout
+
+\begin_layout Section
+מצגת
+\end_layout
+
+\begin_layout Enumerate
+המשפט שאני לא אומר מספיק פעמים במהלך ההרצאה: 
+\begin_inset Formula 
+\[
+\text{\LyX}\neq\mbox{MS Word}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מה זה ליקס? בכותרת.
+\end_layout
+
+\begin_layout Enumerate
+ל
+\change_deleted 1737773943 1333364304
+ע
+\change_unchanged
+ט
+\change_inserted 1737773943 1333364305
+ע
+\change_unchanged
+ך -- היסטוריה ומוטיבציה.
+\end_layout
+
+\begin_layout Enumerate
+ליקס כממשק גרפי ללטעך.
+\end_layout
+
+\begin_layout Enumerate
+תכונות
+\change_deleted -1747736686 1367671450
+.
+\change_inserted -1747736686 1367671449
+
+\end_layout
+
+\begin_layout Enumerate
+פילוסופיה.
+\end_layout
+
+\begin_deeper
+\begin_layout Section
+דוגמאות
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+כתיבת מסמך
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+הגדרת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Layout
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+בעברית -- אין לכם הרבה אפשרויות,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Article
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+או
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Article (Hebrew)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+"סביבות"
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+כותרת, )
+\lang english
+Alt-p t
+\lang hebrew
+( 
+\end_layout
+
+\begin_layout Itemize
+חלקית עד פסקאות )
+\lang english
+Alt-p #
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+#=2,3,4,5,6
+\lang hebrew
+(
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Section
+כותרת
+\end_layout
+
+\begin_layout Subsection
+יותר משנית
+\end_layout
+
+\begin_layout Subsubsection
+עוד יותר משנית
+\end_layout
+
+\begin_layout Paragraph
+כותרת פסקה
+\end_layout
+
+\begin_layout Plain Layout
+שאפילו לא פותחת שורה חדשה, אלא מאפשרת להמשיך לכתוב באותה השורה כרגיל.
+\end_layout
+
+\begin_layout Subsection
+עוד כותרת משנית
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+כשהמסמך מסודר כמו שצריך, קל להוסיף תוכן עניינים )
+\bar under
+\lang english
+I
+\bar default
+nsert\SpecialChar \menuseparator
+L
+\bar under
+i
+\bar default
+st / TOC\SpecialChar \menuseparator
+Table of 
+\bar under
+C
+\bar default
+ontents
+\lang hebrew
+(
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+מספור ו
+\change_inserted 427597995 1333370965
+תבליטים
+\change_unchanged
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+תבליטים, אולי.
+ אינומרציה זה מספור.
+ אם כבר זה אייטמיזציה.
+\end_layout
+
+\end_inset
+
+ )
+\lang english
+Alt-p i, Alt-p e
+\lang hebrew
+(.
+ שינוי עומק האינדנטציה על ידי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Alt-Shift 
+\begin_inset Formula $\leftarrow\backslash\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+סביבות שונות -- "משפט", "הוכחה" וכיו"ב )
+\lang english
+Alt-p space
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+, חיפוש בזמן הקלדה(
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status collapsed
+
+\begin_layout Theorem
+ל
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:choshi"
+
+\end_inset
+
+כל שני מצבים במרחב הילברט, 
+\begin_inset Formula $\psi,\phi$
+\end_inset
+
+, 
+\begin_inset Formula 
+\[
+\left|\left\langle \psi,\phi\right\rangle \right|^{2}\leq\left\langle \psi,\psi\right\rangle \left\langle \phi,\phi\right\rangle 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+נגדיר 
+\begin_inset Formula $w=\psi-\lambda\phi$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ מרוכב.
+\begin_inset Formula 
+\begin{align*}
+\left\langle w,w\right\rangle  & =\left\langle \psi-\lambda\phi,\psi-\lambda\phi\right\rangle =\left\langle \psi,\psi\right\rangle +\left|\lambda\right|^{2}\left\langle \phi,\phi\right\rangle -\lambda^{\star}\left\langle \phi,\psi\right\rangle -\lambda\left\langle \psi,\phi\right\rangle 
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Formula $\left\langle \psi,\phi\right\rangle =\left|\left\langle \psi,\phi\right\rangle \right|e^{i\alpha}$
+\end_inset
+
+.
+ נגדיר 
+\begin_inset Formula $\lambda=\underbrace{\bar{\lambda}}_{\mbox{real}}e^{-i\alpha}$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\left\langle w,w\right\rangle =\left\langle \psi,\psi\right\rangle +\bar{\lambda}^{2}\left\langle \phi,\phi\right\rangle -2\bar{\lambda}\left|\left\langle \psi,\phi\right\rangle \right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+אם נסתכל על הביטוי כפולינום ב-
+\begin_inset Formula $\bar{\lambda}$
+\end_inset
+
+, זהו פולינום מדרגה שניה.
+ אבל 
+\begin_inset Formula $\left\langle w,w\right\rangle \geq0$
+\end_inset
+
+, כי 
+\begin_inset Formula $\left(\cdot,\cdot\right)$
+\end_inset
+
+ הינה נורמה, ולכן הדיסקרימיננטה של הפולינום שלילית )הפולינום לא חוצה את
+ האפס( -- 
+\begin_inset Formula $b^{2}-4ac\leq0$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+4\left|\left\langle \psi,\phi\right\rangle \right|^{2}-4\left\langle \psi,\psi\right\rangle \left\langle \phi,\phi\right\rangle \leq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+מחלקים ב-
+\numeric on
+4
+\numeric off
+, מעבירים אגפים, ומקבלים את אי שוויון קושי-שוורץ, משפט )
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:choshi"
+
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Proof
+השוויון מתקבל כאשר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+הפונקציות זהות או מקבילות.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+עיצוב של מילים בודדות: 
+\bar under
+קו תחתי
+\bar default
+ )
+\lang english
+Ctrl-u
+\lang hebrew
+( 
+\series bold
+אותיות שמנות )
+\lang english
+Bold
+\lang hebrew
+( 
+\series default
+)
+\lang english
+Ctrl-B
+\lang hebrew
+( ו
+\emph on
+הדגשה )
+\lang english
+Emphesis
+\lang hebrew
+(
+\family roman
+\series medium
+\shape up
+\size normal
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+)
+\lang english
+Ctrl-E
+\lang hebrew
+( 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+גרפיקה 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ניתן למקם את הגרפיקה בתוך אובייקטים "צפים" )
+\lang english
+Float
+\lang hebrew
+( --
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+LaTeX
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ימקם את האובייקט הגרפי כראות עיניו.
+ ניתן להתייחס לגרפיקה באמצעות הפניה.
+ )
+\lang english
+Insert\SpecialChar \menuseparator
+Float\SpecialChar \menuseparator
+Figure
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ ( )
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Wrap
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+לא עובד בעברית(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset label
+LatexCommand label
+name "Flo:generic"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+איור גנרי
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+להוספת גרפיקה:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar under
+\noun default
+\color inherit
+\lang english
+I
+\bar default
+nsert\SpecialChar \menuseparator
+
+\bar under
+G
+\bar default
+raphics
+\lang hebrew
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+הגרפיקות 
+\series bold
+מקושרות
+\series default
+ ולא מוטמעות בתוך מסמך ה-
+\lang english
+LyX
+\lang hebrew
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+אפשר לשנות את הגרפיקה מבחוץ והיא תתעדכן במסמך.
+\end_layout
+
+\begin_layout Itemize
+כאב ראש כשמעבירים מסמכים ממקום למקום.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+מתמטיקה
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+יצירת בלוק מתמטי )
+\lang english
+Ctrl-m
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+או
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Ctrl-shift-m
+\lang hebrew
+(
+\end_layout
+
+\begin_layout Itemize
+אינליין נגד דיספליי )
+\lang english
+Alt-m d
+\lang hebrew
+( 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+אפשר לכתוב כל מני ביטויים בתוך השורה, ו-
+\lang english
+LateX
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ינסה לדאוג שהם לא יתפסו יותר מדי מקום, למשל 
+\begin_inset Formula $\int_{a}^{b}f\left(x\right)$
+\end_inset
+
+, או 
+\begin_inset Formula $\sum_{n=1}^{\infty}a_{n}x^{n}$
+\end_inset
+
+ , אבל אם כותבים אותם ב-
+\lang english
+Display mode
+\lang hebrew
+, הם יפים יותר ותופסים יותר מקום 
+\begin_inset Formula 
+\begin{equation}
+\int_{a}^{b}f\left(x\right)=\sum_{n=1}^{\infty}a_{n}x^{n}\label{eq:1st_eqn}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+אפילו שברים יכולים להראות בצורה שונה: 
+\begin_inset Formula $\frac{a}{b}\in\mathbb{Q}$
+\end_inset
+
+ או 
+\begin_inset Formula 
+\[
+\frac{a}{b}\in\mathbb{Q}\tag{\dagger}
+\]
+
+\end_inset
+
+ראוי לציין שלא חייבים ללחוץ על
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Enter
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+לאחר ביטוי מתמטי, אם הוא לא מהווה את סוף הפיסקה.
+ שימו לב שאחרי ביטוי )
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1st_eqn"
+
+\end_inset
+
+( לחצי על
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Enter
+\lang hebrew
+, ואחרי ביטוי 
+\begin_inset Formula $\left(\dagger\right)$
+\end_inset
+
+ -- לא.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+סרגל הכלים 
+\end_layout
+
+\begin_layout Itemize
+פשוט לכתוב טך )
+\lang english
+
+\backslash
+frac, 
+\backslash
+alpha, 
+\backslash
+sum, 
+\backslash
+int, 
+\backslash
+partial
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+(
+\end_layout
+
+\begin_layout Itemize
+קיצורי מקשים )
+\lang english
+Alt-m f, Alt-m g a, Alt-m u, Alt-m i, Alt-m p
+\lang hebrew
+( 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+שתי השורות האחרונות מייצרות 
+\begin_inset Formula $\frac{\cdot}{\cdot},\alpha\sum\int\partial$
+\end_inset
+
+( 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+מטריצות, מערכים )
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+
+\backslash
+matrix, 
+\backslash
+array
+\lang hebrew
+, הוספת ומחיקת שורות באמצעות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Ctrl+Enter
+\lang hebrew
+, ו-
+\lang english
+Del
+\lang hebrew
+, עמודות באמצעות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Alt-m c i
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ו-
+\lang english
+Alt-m c d
+\lang hebrew
+, באופן כללי, מתייחס לעמודות, ו-
+\lang english
+Alt-m w
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+לעמודות( 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+יש כל מני סוגים של מטריצות, למשל,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+
+\backslash
+matrix
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+תייצג מטריצה "חופשית", 
+\begin_inset Formula $\begin{matrix}a & b\\
+c & d
+\end{matrix}$
+\end_inset
+
+ , ואילו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+
+\backslash
+pmatrix
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+תוסיף לה סוגריים: 
+\begin_inset Formula $\begin{pmatrix}a & b\\
+c & d
+\end{pmatrix}$
+\end_inset
+
+.
+ ל"מערכים" )
+\lang english
+
+\backslash
+array
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+( אין סוגריים כברירת מחדל, אבל יש להם כמה אפשרויות אחרות: 
+\begin_inset Formula $\begin{array}{c|cc}
+ & a & b\\
+\hline c & 1 & 2\\
+d & 2 & 1
+\end{array}$
+\end_inset
+
+, למשל, הם מאפשרים לעשות גבולות בתוך המערך.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+גבולות )
+\lang english
+Alt-m l
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+, ההבדל בין 
+\begin_inset Formula $\sum_{a}^{b}$
+\end_inset
+
+ ל-
+\begin_inset Formula $\sum\limits _{a}^{b}$
+\end_inset
+
+..(
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+קישורים בין חלקי מסמך
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+תוויות 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ניתן להוסיף לכל חלק "ממוספר" במסמך --
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Section
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Float
+\lang hebrew
+, נוסחאות וכו'
+\end_layout
+
+\begin_layout Itemize
+בתפריט:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar under
+\noun default
+\color inherit
+\lang english
+I
+\bar default
+nsert\SpecialChar \menuseparator
+
+\bar under
+L
+\bar default
+abel
+\end_layout
+
+\begin_layout Itemize
+במתמטיקה:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+
+\backslash
+tag
+\lang hebrew
+, מאפשר לתת שם "ציורי" למשואות.
+\end_layout
+
+\begin_layout Itemize
+ניתן למספר מתמטיקה באופן "גורף" )
+\lang english
+Alt-m n
+\lang hebrew
+( .
+ אבל אף פעם אל תפנו לנוסחא ממוספרת על ידי הקלדה ישירה של המספר.
+ 
+\change_inserted 1737773943 1333364488
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+בכוונה רק שתי נקודות?
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+הפניות )
+\lang english
+Cross Reference
+\lang hebrew
+( 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+מאפשר לאזכר מספר של "גורם" קודם.
+ )
+\bar under
+\lang english
+I
+\bar default
+nsert \SpecialChar \menuseparator
+Cross-
+\bar under
+R
+\bar default
+eference
+\lang hebrew
+, מסודר לפי הסדר במסמך(
+\end_layout
+
+\begin_layout Itemize
+בעברית -- להשתמש רק בהפניה "פשוטה".
+ השאר קצת מתחרבש.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ביבליוגרפיה
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+הסביבה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Bibiliography
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+מאפשרת ליצור רשימה ביבליוגרפית
+\end_layout
+
+\begin_layout Itemize
+מהתפריט:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar under
+\noun default
+\color inherit
+\lang english
+I
+\bar default
+nsert\SpecialChar \menuseparator
+
+\bar under
+C
+\bar default
+itation
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ כדי להוסיף הפניה
+\end_layout
+
+\begin_layout Itemize
+אפשר להשתמש גם ב-
+\lang english
+Bibtex
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+וכלים אחרים להפניה מרשימה ביבליוגרפית חיצונית.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+עברית
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+בלטעך 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+לא הכל עובד..
+\change_inserted 1737773943 1333364528
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+כנ"ל.
+ עדיף שלוש נקודות, עדיף עם אלט+., \SpecialChar \ldots{}
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+ בשימוש בסיסי זה בסדר גמור.
+\end_layout
+
+\begin_layout Itemize
+בפרט 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ניקוד -- בעייתי.
+ 
+\end_layout
+
+\begin_layout Itemize
+יצירת מצגות -- לא מתוך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+LyX
+\lang hebrew
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+אני הסתבכתי עם יצירת אינדקס, אבל זה כנראה פתיר..
+\change_inserted 427597995 1333371006
+.
+\change_unchanged
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ושוב\SpecialChar \ldots{}
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+בליקס
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+פרישת מקלדת של ליקס עצמאית מזו של מערכת ההפעלה -- במערכת ההפעלה, יש לכוון
+ את השפה ל-
+\lang english
+En
+\lang hebrew
+, ולשנות את השפה רק בתוך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+LyX
+\lang hebrew
+.
+ )הגדרת קיצור מקשים:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+F11
+\change_inserted -1747736686 1339848957
+
+\lang hebrew
+.
+ בליקס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.02-2.04
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יש באג, צריך לעשות קיצור מקשים אחד להחלפה לעברית, ושני להחלפה לאנגלית
+\change_unchanged
+(
+\end_layout
+
+\begin_layout Itemize
+בתוך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+math-mode
+\lang hebrew
+, ניתן לכתוב רק באנגלית.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+פשוט לחפש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Lyx Hebrew (Linux
+\backslash
+Windows)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ב-
+\lang english
+google
+\lang hebrew
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ב-
+\lang english
+OS X
+\lang hebrew
+, שמעתי שזה עובד, אבל אני לא יודע איך להתקין את התמיכה המתאימה ב-
+\lang english
+LaTeX
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+]בליקס -- אותו הדבר כמו במערכות ההפעלה האחרות[.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+אל תעשו:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+)כמעט( אף פעם אל תלחצו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Ctrl-Enter
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+)אם מעצבן אתכם "טאב" בתחילת שורה, אפשר לבטל אותו ב-
+\lang english
+Documents\SpecialChar \menuseparator
+Settings -- Text Layout
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+(
+\end_layout
+
+\begin_layout Itemize
+אל תתייחסו לאובייקט ממוספר ללא שימוש ב-
+\lang english
+Label
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ו-
+\lang english
+Cross-reference
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+)המספרים פשוט ישתנו לכם ברגע שתשנו את המסמך מספיק(
+\end_layout
+
+\begin_layout Itemize
+אל תשתמשו ב-
+\series bold
+\lang english
+Bold
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ו-
+\bar under
+\lang english
+Underline
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+לכותרת.
+ השתמשו ב"סביבות" מתאימות.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+בעיות
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+תמונה לא נמצאת
+\end_layout
+
+\begin_layout Itemize
+פקודה לא קיימת/לא נמצאה
+\end_layout
+
+\begin_layout Itemize
+ניקוד
+\end_layout
+
+\begin_layout Itemize
+אנגלית בסוף שורה --
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Conversion failed
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Section
+"ענפים"
+\end_layout
+
+\begin_layout Standard
+ליקס מאפשר להוסיף לתוך מסמך חלקים שיודפסו ל-
+\lang english
+PDF
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+רק במצבים מסויימים.
+ כך, תוכלו לערוך כמה מסמכים עם בסיס משותף באותו קובץ.
+ אני השתמשתי בזה למשל לצורך,
+\end_layout
+
+\begin_layout Itemize
+מבחן: השאלות והפתרונות נשמרו באותו קובץ.
+\end_layout
+
+\begin_layout Itemize
+תרגול: גרסה אחת שמיועדת לעלות לאתר, ואילו גרסה נוספת בשביל המתרגל, עם דברים
+ שרצוי להדגיש, הערות נוספות להגיד בעל-פה וכו'.
+\end_layout
+
+\begin_layout Standard
+ההתחלה פשוטה,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Insert\SpecialChar \menuseparator
+Branch\SpecialChar \menuseparator
+Insert new Branch
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ נותנים לו שם, ותתווסף מסגרת 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אדומה למסמך.
+ למסגרת אפשר להוסיף הכל, ומה שנמצא בתוכה, יוצג 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+לפי בחירה.
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+לחיצה ימנית על הכותרת האפורה של ה"ענף" תאפשר להפעיל או לבטל אותו )כלומר,
+ לגרום לו להיות מוצג או לא מוצג ביצוא(
+\end_layout
+
+\begin_layout Itemize
+אחרי יצירה ראשונית, ניתן ליצור מסגרות נוספות של אותו ענף, כולם יוצגו ויוסתרו
+ ביחד.
+ 
+\end_layout
+
+\begin_layout Itemize
+באפשרויות מסמך )
+\lang english
+Document\SpecialChar \menuseparator
+Settings\SpecialChar \menuseparator
+Branches
+\lang hebrew
+( ניתן להוסיף סיומת )
+\lang english
+suffix
+\lang hebrew
+( לענפים.
+ זה יגרום לכך ש-
+\lang english
+pdf
+\lang hebrew
+ים שונים יווצרו עם סיומת שונה.
+ כך למשל, יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+exam.pdf
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\lang english
+exam_sulotions.pdf
+\lang hebrew
+, וימנע בלבול.
+\end_layout
+
+\begin_layout Section
+מקרואים עבור מתמטיקה
+\end_layout
+
+\begin_layout Standard
+
+\size tiny
+\begin_inset FormulaMacro
+\newcommand{\ketnis}[1]{\left\vert #1\right\rangle ^{#1}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\dbar}{{\mathchar'26\mkern-12mu{\rm d} }}
+{\bar{\mbox{d}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\bra}[1]{\Bra{#1}}
+{\left\langle #1\right\vert }
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\ket}[1]{\Ket{#1}}
+{\left\vert #1\right\rangle }
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\set}[1]{\Set{#1}}
+{\left\{ #1\right\} }
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\braket}[1]{\Braket{#1}}
+{\left\langle #1\right\rangle }
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\norm}[1]{\left\Vert #1\right\Vert }
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\eps}{\varepsilon}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+חלק מפקודות המתמטיקה עשויות להיות ארוכות למדי.
+ זה די מעצבן לכתוב כל פעם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family typewriter
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+
+\backslash
+varepsilon
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כשכל מה שאתה רוצה זה 
+\begin_inset Formula $\eps$
+\end_inset
+
+, ועל כל פעם שאתה רוצה לדבר על הממשים, 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+, להכביד עם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family typewriter
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+
+\backslash
+mathbb{R}
+\family default
+\lang hebrew
+.
+ יתר על כן, על פניו, בשביל ליצור 
+\begin_inset Formula $\norm x$
+\end_inset
+
+ צריך כל פעם לחזור למסך יצירת-סוגריים כדי ליצור סוגריים מיוחדים.
+ למה לא ליצור פקודה פשוטה )נניח,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family typewriter
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+
+\backslash
+norm
+\family default
+\lang hebrew
+..( שתטפל בזה?
+\end_layout
+
+\begin_layout Itemize
+בתפריט,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Insert\SpecialChar \menuseparator
+Math\SpecialChar \menuseparator
+Macro
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או בסרגל הכלים, 
+\begin_inset Graphics
+	filename /usr/share/lyx/images/math-macro_newmacroname_newcommand.png
+
+\end_inset
+
+.
+ תווצר תיבה עם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+חלקים: 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/math_macro_empty.png
+	scale 50
+	groupId macro
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+בחלק הראשון )
+\lang english
+"name"
+\lang hebrew
+( יש למלא את שם הפקודה )מתחיל ב-
+\backslash
+, כמו כל פקודת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+TeX
+\lang hebrew
+(, בחלק השני )
+\lang english
+
+\begin_inset Quotes erd
+\end_inset
+
+TeX"
+\lang hebrew
+( מכניסים מתמטיקה "כרגיל" שתווצר כאשר מוסיפים את הפקודה המתאימה: 
+\begin_inset Graphics
+	filename images/math_macro_eps.png
+	scale 50
+	groupId macro
+
+\end_inset
+
+.
+ על בחלק השלישי )
+\lang english
+"LyX
+\begin_inset Quotes erd
+\end_inset
+
+
+\lang hebrew
+( נדון בהמשך.
+ 
+\end_layout
+
+\begin_layout Itemize
+אבל אפשר גם להוסיף מקרואים עם פרמטרים: כאשר עורכים מקרו מופיע )למטה?( סרגל
+ כלים מתאים.
+ כותבים את שמו ומוסיפים פרמטר עם 
+\begin_inset Graphics
+	filename /usr/share/lyx/images/math-macro-add-param.png
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+יתווסף פרמטר אחד לשם, וכן פרמטר בתיבת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+"TeX
+\begin_inset Quotes erd
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+בתיבה השניה, ניתן להוסיף ביטוי מתמטי מורכב, ובתוכו לשלב את הפרמטר על ידי
+ הקלדת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family typewriter
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+
+\backslash
+#1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ .
+ ניתן לשלב פרמטר אף יותר מפעם אחת, 
+\begin_inset Graphics
+	filename images/math_macro_ket.png
+	scale 50
+	groupId macro
+
+\end_inset
+
+.
+ עכשיו, אפשר לעשות בקלות 
+\begin_inset Formula $\ketnis{\psi}$
+\end_inset
+
+, למשל, על ידי הקלדת 
+\family typewriter
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+
+\backslash
+ket{psi}
+\family default
+\lang hebrew
+.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+על מה לא נדבר? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+מקרואים,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+ERT
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Minibuffer
+\lang hebrew
+, טמפלייטים,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+Layouts
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ .
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Section
+עוד
+\end_layout
+
+\begin_layout Standard
+ליקס היא תוכנה חופשית! אתם מוזמנים להרחיב אותה.
+ לתקן באגים.
+ לכתוב פיצ'רים חדשים.
+ והכי חשוב: לדווח על באגים.
+ 
+\end_layout
+
+\end_body
+\end_document
