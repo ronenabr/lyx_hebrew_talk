@@ -24,30 +24,26 @@
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
 
-	<script type="text/javascript">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-44824545-1']);
-	  _gaq.push(['_trackPageview']);
+  ga('create', 'UA-44824545-2', 'ronenabr.github.io');
+  ga('send', 'pageview');
 
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-
-	</script>
+</script>
   </head>
 
   <body dir=rtl>
-  <a href="https://github.com/ronenabr/python_for_physicsits/">
+  <a href="https://github.com/ronenabr/lyx_hebrew_talk/tree/gh-pages">
     <img style="position: absolute; top: 0; left: 0; border: 0;"  src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png" alt="Fork me on GitHub" />
   </a>
 
     <div class="container">
       <div class="header" id="top">
         <ul class="nav nav-pills pull-left">
-          <li><a href="#dates">תאריכים</a></li>
           <li><a href="#notes">רשימות</a></li>
           <li><a href="#syllabus">סילבוס והתקנה</a></li>
           <li><a href="#links">קישורים</a></li>
@@ -83,38 +79,19 @@
             
       </div>
 
-      <div class="panel panel-warning" id="dates">
-            <div class="panel-heading"><h3> <span class="glyphicon glyphicon-calendar"></span> תאריכים  <small><a href="#top"<span class="glyphicon glyphicon-arrow-up pull-left"></a></small> </h3></div>
-            <div class="panel-body">
-                הסדנא תתקיים בספריית פיזיקה. משך כל מפגש כשעתיים.
-                <div >
-                  <div class="btn btn-warning">יום רביעי, 23.10.2013, בשעה 18:30</div>
-                  <div class="btn btn-warning">יום רביעי,  30.10.2013, בשעה 18:30</div>
-                  <div class="btn btn-warning">יום רביעי, 06.11.2013, בשעה 18:30</div>
-                </div>
-            </div>
-
-        </div>
-
+   
 
       <div class="row marketing" id="notes">
         <div class="col-lg-6">
             <div class="panel panel-primary">
-              <div class="panel-heading"><h4>רשימות <small><a href="#top"<span class="glyphicon glyphicon-arrow-up pull-left"></a></small> </h4></div>
+              <div class="panel-heading"><h4>רשימות, בקבצי PDF <small><a href="#top"<span class="glyphicon glyphicon-arrow-up pull-left"></a></small> </h4></div>
                <div class="panel-body">
-גרסאת עמוד-יחיד של כל נושא. 
+
                </div>
                 <div class="list-group">
-                    <a href="static_notes/lecture1.html" class="list-group-item">מבוא <span class="badge pull-left">סופי</span></a>
-                    <a href="static_notes/lecture2.html" class="list-group-item">טיפוסי משתנים <span class="badge pull-left">סופי</span></a>
-                    <a href="static_notes/lecture3.html" class="list-group-item">זרימת תוכנית <span class="badge pull-left">סופי</span></a>
-                    <a href="static_notes/lecture4.html" class="list-group-item">פונקציות <span class="badge pull-left">סופי</span></a>
-                    <a href="static_notes/lecture5.html" class="list-group-item">סקריפטים, מודולים, קבצים ושגיאות <span class="badge pull-left">סופי</span></a>
-                    <a href="static_notes/lecture6.html" class="list-group-item">סקירת scipy <span class="badge pull-left">סופי</span> </a>
-                    <a href="static_notes/lecture_numpy.html" class="list-group-item">שימוש ב-numpy </a>
-                    <a href="static_notes/lecture_dounble_pendelum.html" class="list-group-item">דוגמה: מטוטלת כפולה </a>
-                    <a href="static_notes/lecture_pandas_example.html" class="list-group-item">דוגמאת שימוש ב-pandas </a>
-
+                    <a href="talk_files_nov_2013/lyx_lecture_toc_haifa.pdf" class="list-group-item"> מצגת פתיחה  <span class="badge pull-left">PDF</span> </a>
+                    <a href="talk_files_nov_2013/haifa_slides_en.pdf" class="list-group-item"> תקציר ההרצאה  <span class="badge pull-left">PDF</span>  </a>
+                    <a href="talk_files_nov_2013/lyx_ex.pdf" class="list-group-item"> תרגיל, כולל הוראות להתאמת ליקס לעברית.  <span class="badge pull-left">PDF</span>  </a>
                 </div>
             </div>
         </div>
@@ -122,23 +99,16 @@
 
         <div class="col-lg-6">
             <div class="panel panel-primary">
-                <div class="panel-heading"><h4>מצגות <small><a href="#top"<span class="glyphicon glyphicon-arrow-up pull-left"></a></small> </h4></div>
+                <div class="panel-heading"><h4>רשימות, בקבצי LyX <small><a href="#top"<span class="glyphicon glyphicon-arrow-up pull-left"></a></small> </h4></div>
                 <div class="panel-body text-warning">
 <span class="glyphicon glyphicon-warning-sign"></span>
-
-    מומלץ לצפות באמצעות chrome. 
+                מנהסתם, צריך להתקין LyX כדי לצפות בהם. 
+    
                 </div>
 
                 <div class="list-group">
-                    <a href="slides/lecture1.slides.html" class="list-group-item"> מבוא <span class="badge pull-left">סופי</span></a>
-                    <a href="slides/lecture2.slides.html" class="list-group-item"> טיפוסי משתנים <span class="badge pull-left">סופי</span></a>
-                    <a href="slides/lecture3.slides.html" class="list-group-item">זרימת תוכנית <span class="badge pull-left">סופי</span></a>
-                    <a href="slides/lecture4.slides.html" class="list-group-item">פונקציות <span class="badge pull-left">סופי</span></a>
-                    <a href="slides/lecture5.slides.html" class="list-group-item">סקריפטים, מודולים, קבצים ושגיאות <span class="badge pull-left">סופי</span></a> 
-                    <a href="slides/lecture6.slides.html" class="list-group-item">סקירת scipy <span class="badge pull-left">סופי</span></a>
-                    <a href="slides/lecture_numpy.slides.html" class="list-group-item">שימוש ב-numpy </a>
-                    <a href="slides/lecture_dounble_pendelum.slides.html" class="list-group-item">דוגמה: מטוטלת כפולה </a>
-                    <a href="slides/lecture_pandas_example.slides.html" class="list-group-item">דוגמאת שימוש ב-pandas </a>
+                    <a href="talk_files_nov_2013/lyx_lecture_toc_haifa.lyx" class="list-group-item"> מצגת פתיחה  <span class="badge pull-left">LyX</span> </a>
+                    <a href="talk_files_nov_2013/haifa_slides_en.lyx" class="list-group-item"> תקציר ההרצאה  <span class="badge pull-left">LyX</span>  </a>
                 </div>
             </div>
         </div>
@@ -149,25 +119,15 @@
 הנושאים שילמדו בסדנה הם:
             <ul>
                 <li> על LaTeX וההבדלים בין  ליקס לוורד.</li>
-                <li> תחביר בסיסי וכתיבת תוכנות פשוטות.</li>
-                <li  id="tools"> שיטות עבודה וסביבות עבודה:
-<a href="">IPython</a> ו- <a href="">Spyder</a>.
-</li>
-                <li> ספריות לשימוש מדעי   
-                    <ul>
-                        <li><a href="http://www.numpy.org/">numpy</a> - ספריית שלד לנומריקה.</li>
-                        <li><a href="http://matplotlib.org/">matplotlib</a> - ספריה לציור גרפים.</li>
-                        <li><a href="http://www.scipy.org/">scipy</a> - ספריה כללית לשימוש מדעי.</li>
-                        <li><a href="http://pandas.pydata.org/">pandas</a> - ספריה לעיבוד נתונים.</li>
-                    </ul>
-                </li>
+                <li> כתיבת מסמך בסיסי והגדרת סביבות שונות.</li>
+                <li>הוספת תמונות למסמך</li>
+                <li>כתיבת ביטויים מתמטיים</li>
+                <li>קישוריות בין חלקי המסמך</li>
+                <li>עבודה עם עברית</li>
+                <li>שימוש ב"ענפים" - גרסאות שונות של אותו המסמך</li>
+                <li>הגדרת קיצורים עבור ביטויים מתמטיים</li>
             </ul>
-            <p>
-                במהלך הסדנה ינתנו מספר תרגילים קצרצרים ותוכלו להתנסות ולשאול שאלות בהתאם. מספר המחשבים השולחניים הזמינים במקום קטן ממספר הנרשמים לסדנה ולכן כדאי להגיע עם מחשב נייד עם פייתון מותקן. 
-            </p>
-            <p>
-   הסדנה מניחה ידע מוקדם בשפת תכנות כלשהי: הכרות כללית עם מושגים כמו פונקציות, לולאות, משתנים וכו'. 
-            </p>
+
             <h4 class="text-success">התקנה</h4>
             <p> <strong class="text-success">בלינוקס</strong>
         יש להתקין באמצעות מנהל החבילות של ההפצה את החבילות של LyX ושל TeXLive.
@@ -195,55 +155,72 @@ $ sudo apt-get install lyx
     <div class="panel panel-info" id="links">
         <div class="panel-heading"><h3>קישורים <small><a href="#top"<span class="glyphicon glyphicon-arrow-up pull-left"></a></small> </h3></span>
 </div>
-         <div class="panel-body">
-        בנוסף לאתרים הללו, האתר של כל אחת מהספריות והכלים כולל תיעוד מקיף אודות השימוש בו (ראו 
-<a href="#tools">סילבוס</a> ).
-        </div>
+
         <div class="list-group">
-            <a href="http://code.google.com/p/winpython/" class="list-group-item">
-                <h4 class="list-group-item-heading">WinPython</h4>
-                <p class="list-group-item-text">התקנת פייתון לווינדוס, המכילה, בין השאר, את כל הכלים שנשתמש בהם בסדנה. החבילה יכולה להיות מותקנת במתכונת "פורטבילית", על כונן נייד, או ללא הרשאות ניהול במחשב.
-                <span class="text-warning">
-                      מומלץ להתקין את גרסא
-<span dir="ltr"> 2.7.x</span>. </span>
+            <a href="https://www.dropbox.com/s/qles0fxxjzg1p2p/LyX%20Guide.pdf" class="list-group-item">
+                <h4 class="list-group-item-heading">
+                 הוראות שימוש והתקנה
+                 
+                 </h4>
+                <p class="list-group-item-text">
+                אצל גדי. 
+
                 </p>
-  </p>
-              </a>
-            <a href="http://scipy-lectures.github.io/intro/index.html" class="list-group-item">
-                <h4 class="list-group-item-heading">Scipy lecture notes</h4>
-                <p class="list-group-item-text">קורס מקיף אודות פייתון ופייתון לשימוש מדעי. המקור העיקרי לסדרת ההרצאות הזו.  </p>
-              </a>
-
-            <a href="http://python.org/" class="list-group-item">
-                <h4 class="list-group-item-heading">Python.org</h4>
-                <p class="list-group-item-text">האתר הרשמי של פייתון </p>
               </a>
 
 
-            <a href="http://www.learnpython.org/" class="list-group-item">
-                <h4 class="list-group-item-heading">learnpython.org</h4>
-                <p class="list-group-item-text">אתר אינטראקטיבי ללימוד פייתון. מאפשר לכתוב ולהריץ קוד בתוך האתר.  </p>
-              </a>
+            <a href="http://gadial.net/forum/viewforum.php?f=6" class="list-group-item">
+                <h4 class="list-group-item-heading">
+                 פורום שאלות טכניות ב"לא מדויק"
+                 
+                 </h4>
+                <p class="list-group-item-text">
+                    כולל הרבה שאלות ותשובות על LyX, ומקום טוב לשאול בו שאלות על LyX בעברית. בפרט, הח"מ משתדל לענות שם. 
 
-            <a href="http://he.wikibooks.org/wiki/%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F" class="list-group-item">
-                <h4 class="list-group-item-heading">פייתון בויקיספרים</h4>
-                <p class="list-group-item-text">מדריך תכנות פייתון בעברית. עוד לא מושלם. </p>
+                </p>
               </a>
+              
 
-            <a href="http://vlib.eitan.ac.il/python/" class="list-group-item">
-                <h4 class="list-group-item-heading">פייתון באיתן</h4>
-                <p class="list-group-item-text">מדריך תכנות פייתון בעברית. קצת ישן, אבל נחמד. </p>
-              </a>
+            <a href="http://www.lyx.org" class="list-group-item">
+                <h4 class="list-group-item-heading">
+                 LyX.org
+                 
+                 </h4>
+                <p class="list-group-item-text">
+                 האתר הרשמי של LyX. 
 
-            <a href="http://www.python.org.il/course/" class="list-group-item">
-                <h4 class="list-group-item-heading">קורס ללימוד תכנות באמצעות פייתון</h4>
-                <p class="list-group-item-text">עדיין בבניה.  </p>
+                </p>
               </a>
+              
+              
+
+                          <a href="http://ronenabr.github.io/technion_thesis_lyx/" class="list-group-item">
+                <h4 class="list-group-item-heading">
+            תבנית ליקס ליצירת תזה
+                 
+                 </h4>
+                <p class="list-group-item-text">
+                  מותאמת לפורמט הדרוש עבור תזה בטכניון. 
+
+                </p>
+              </a>
+              
+                          <a href="http://www.technion.ac.il/~ronen/" class="list-group-item">
+                <h4 class="list-group-item-heading">
+                 האתר של רונן אברבנאל
+                 
+                 </h4>
+                <p class="list-group-item-text">
+                  
+
+                </p>
+              </a>
+ 
         </div>
 
       </div>
       <div class="footer">
-        <p>&copy; </p>
+        <p> רונן אברבנאל, 2013 </p>
       </div>
 
     </div> <!-- /container -->
